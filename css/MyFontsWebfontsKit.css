@@ -1,0 +1,330 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3062635, 2015-07-22T11:26:36-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: SofiaProRegular-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/regular-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBlack-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/black-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProSemiBold-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/semi-bold-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProExtraLight-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/extra-light-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProExtraLight by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/extra-light/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProUltraLight by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/ultra-light/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProLight-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/light-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBold by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/bold/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProMedium-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/medium-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBold-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/bold-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProMedium by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/medium/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBlack by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/black/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProSemiBold by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/semi-bold/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProLight by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/light/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProUltraLight-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/ultra-light-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProRegular by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro/regular/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProSemiBoldCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/semi-bold-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProRegularCondensed-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/regular-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProSemiBoldCondensed-Itali by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/semi-bold-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProRegularCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/regular-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProMediumCondensed-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/medium-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProMediumCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/medium-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProUltraLightCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/ultra-light-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProLightCondensed-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/light-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProUltraLightCondensed-Ita by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/ultra-light-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBlackCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/black-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProExtraLightCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/extra-light-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProLightCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/light-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBoldCondensed by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/bold-condensed/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBoldCondensed-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/bold-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProExtraLightCondensed-Ita by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/extra-light-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProBlackCondensed-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-condensed/black-condensed-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2012. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftBold-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/bold-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftMedium by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/medium/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftLight by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/light/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftBold by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/bold/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftLight-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/light-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftMedium-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/medium-italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftRegular by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/regular/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * Webfont: SofiaProSoftRegular-Italic by Mostardesign
+ * URL: http://www.myfonts.com/fonts/mostardesign/sofia-pro-soft/italic/
+ * Copyright: Copyright (c) Olivier Gourvat - Mostardesign Studio, 2014. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3062635
+ * Licensed pageviews: 10,000
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("http://hello.myfonts.net/count/2ebb6b");
+
+  
+@font-face {font-family: 'SofiaProRegular-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_0_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_0_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_0_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_0_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_0_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBlack-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSemiBold-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_2_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_2_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_2_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_2_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_2_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProExtraLight-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_3_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_3_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_3_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_3_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_3_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProExtraLight';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_4_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_4_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_4_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_4_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_4_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProUltraLight';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_5_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_5_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_5_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_5_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_5_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProLight-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_6_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_6_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_6_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_6_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_6_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBold';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_7_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_7_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_7_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_7_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_7_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProMedium-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_8_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_8_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_8_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_8_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_8_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBold-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_9_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_9_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_9_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_9_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_9_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProMedium';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_A_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_A_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_A_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_A_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_A_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBlack';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_B_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_B_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_B_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_B_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_B_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSemiBold';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_C_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_C_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_C_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_C_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_C_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProLight';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_D_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_D_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_D_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_D_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_D_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProUltraLight-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_E_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_E_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_E_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_E_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_E_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProRegular';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_F_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_F_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_F_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_F_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_F_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSemiBoldCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_10_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_10_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_10_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_10_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_10_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProRegularCondensed-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_11_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_11_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_11_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_11_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_11_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSemiBoldCondensed-Itali';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_12_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_12_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_12_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_12_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_12_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProRegularCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_13_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_13_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_13_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_13_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_13_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProMediumCondensed-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_14_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_14_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_14_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_14_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_14_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProMediumCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_15_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_15_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_15_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_15_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_15_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProUltraLightCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_16_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_16_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_16_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_16_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_16_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProLightCondensed-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_17_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_17_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_17_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_17_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_17_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProUltraLightCondensed-Ita';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_18_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_18_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_18_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_18_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_18_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBlackCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_19_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_19_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_19_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_19_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_19_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProExtraLightCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1A_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1A_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1A_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1A_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1A_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProLightCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1B_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1B_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1B_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1B_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1B_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBoldCondensed';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1C_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1C_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1C_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1C_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1C_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBoldCondensed-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1D_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1D_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1D_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1D_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1D_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProExtraLightCondensed-Ita';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1E_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1E_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1E_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1E_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1E_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProBlackCondensed-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1F_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1F_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1F_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1F_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_1F_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftBold-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_20_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_20_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_20_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_20_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_20_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftMedium';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_21_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_21_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_21_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_21_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_21_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftLight';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_22_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_22_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_22_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_22_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_22_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftBold';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_23_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_23_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_23_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_23_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_23_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftLight-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_24_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_24_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_24_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_24_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_24_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftMedium-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_25_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_25_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_25_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_25_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_25_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftRegular';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_26_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_26_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_26_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_26_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_26_0.ttf") format('truetype');}
+ 
+  
+@font-face {font-family: 'SofiaProSoftRegular-Italic';src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_27_0.eot");src: url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_27_0.eot#iefix") format('embedded-opentype'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_27_0.woff2") format('woff2'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_27_0.woff") format('woff'),url("http://localhost:63342/ndblog/font/webfonts/2EBB6B_27_0.ttf") format('truetype');}
+.SofiaProBold {
+    font-family: SofiaProBold !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+.SofiaProMedium {
+    font-family: SofiaProMedium !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+.SofiaProLight {
+    font-family: SofiaProLight !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+.SofiaProMediumCondensed-Italic {
+    font-family: SofiaProMediumCondensed-Italic !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+.SofiaProMediumCondensed {
+    font-family: SofiaProMediumCondensed !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+.SofiaProBoldCondensed {
+    font-family: SofiaProBoldCondensed !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+}

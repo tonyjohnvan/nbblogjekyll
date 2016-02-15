@@ -1,0 +1,113 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: NimbleDroid Blog
+email: contact@nimbledroid.com
+description: > # this means to ignore newlines until "baseurl:"
+  Nobody likes slow mobile apps. At NimbleDroid, we’re building cutting-edge tools to redefine how developers craft awesome apps. Our product is based on patent-pending technology created at Columbia University. Located in New York City, our team includes academics and hackers of all stripes, from CS PhDs to developers with 2,000+ stars on GitHub.
+descriptionfull:
+  Nobody likes slow mobile apps. At NimbleDroid, we’re building cutting-edge tools to redefine how developers craft awesome apps. Our product is based on patent-pending technology created at Columbia University. Located in New York City, our team includes academics and hackers of all stripes, from CS PhDs to developers with 2,000+ stars on GitHub. We’re backed by an incredible cast of investors and are well funded for the next stage of our growth.
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: http://blog.nimbledroid.com # the base hostname & protocol for your site
+twitter_username: nimbledroid
+github_username:  nimbledroid
+facebook_username: NimbleDroid
+googleplus_username: 109570463366564630073
+linkedin_username: nimbledroid
+
+# Build settings
+markdown: kramdown
+
+authors:
+  junfeng:
+    display_name: Junfeng Yang
+    email: junfeng@nimbledroid.com
+    twitter: junfengy
+    github: junfengy
+  sarvar:
+    display_name: Sarvar Dhillon
+    email: sarvar.dhillon@gmail.com
+    twitter: SarvarDhillon
+    github: SarvarD
+  antonkrasov:
+    display_name: Anton Krasov
+    email: anton.krasov@gmail.com
+    github: antonkrasov
+  junfengandsarvar:
+    display_name: Junfeng Yang | Sarvar Dhillon
+  josh:
+    display_name: Josh Diehl
+
+defaults:
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
+    scope:
+      path: _posts/fr
+    values:
+      layout: default
+      lang: fr
+    scope:
+      path: _posts/zh
+    values:
+      layout: default
+      lang: zh
+
+header:
+    home: https://www.nimbledroid.com/
+    bloghome: /
+
+footer:
+    copyrightTime: 2016
+    Home: https://www.nimbledroid.com/
+    Play: https://www.nimbledroid.com/play
+    Pricing: https://www.nimbledroid.com/pricing
+    Account: https://www.nimbledroid.com/account
+    Help: https://www.nimbledroid.com/help
+    Blog: http://blog.nimbledroid.com
+    About: https://www.nimbledroid.com/about
+    Privacy: https://www.nimbledroid.com/privacy
+    contactEmail: contact@nimbledroid.com
+    recentPosts:
+        post1:
+            url: /jekyll/update/2016/02/14/welcome-to-jekyll.html
+            title: Why You Should Care about Your Android App's Performance
+            time: September 3, 2015
+            imageUrl: images/temp.jpg
+        post2:
+            url: /jekyll/update/2016/02/14/welcome-to-jekyll.html
+            title: Why You Should Care about Your Android App's Performance
+            time: September 3, 2015
+            imageUrl: images/temp.jpg
+        post3:
+            url: /jekyll/update/2016/02/14/welcome-to-jekyll.html
+            title: Why You Should Care about Your Android App's Performance
+            time: September 3, 2015
+            imageUrl: images/temp.jpg
+
+asider:
+    popularTagsPrependUrl: /index.html?tags=
+    popularTags:
+        - Development
+        - Technology
+        - Android
+        - Optimization
+        - Software
+    latestTweet:
+        poster: NimbleDroid
+        url: https://twitter.com/nimbledroid
+        time: Feb 1
+        content: Devs of <a href="">@LiveScore</a> can shave 1.1s off start time with custom Joda-Time DateTimeZone! <a href="">bit.ly/1JTOKzE</a> <a href="">@jodastephen</a> <a href="">#AndroidDev</a>
+    topCategoriesPrependUrl: /index.html?cats=
+    topCategories:
+        - Development
+        - Optimization
+        - App Design
+        - Integration

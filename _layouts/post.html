@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<section id="title_breadcrumbs_bar">
+    <div class="container clearfix">
+        <div class="floatleft">
+            <h1 class="SofiaProBoldCondensed">{{ page.title }}</h1>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="span9 content_with_right_sidebar">
+                <div class="post_content">
+                    <div class="SofiaProLight post post_main">
+                        {% if page.mainpic %}
+                        <img width="1200" height="715" src="{{page.mainpic | prepend: site.baseurl}}" class=" wp-post-image" alt="portfolio7"/>
+                        {% endif %}
+                        <div class="postmeta-above clearfix">
+
+                            <span class="post_author SofiaProMedium">
+
+                                {% if page.author %}
+                                By <span>{{ site.authors[page.author].display_name }}<i class="ci_icon-moonfull"></i></span>
+                                {% endif %}
+
+                                <span class="post_date_inner">{{ page.date | date: "%b %-d, %Y" }}</span>
+                            </span>
+                            <!--<p class="post_meta_comments">-->
+                                <!--<i class="ci_icon-comment"></i>4-->
+                            <!--</p>-->
+                        </div>
+
+                        <div id="mainContaint">
+                            {{ content }}
+                        </div>
+
+                        <div class="postmeta-tags">
+                            <p class="post_meta_tags">
+                                <i class="ci_icon-tags"></i>
+
+                                {% for tag in page.tags %}
+                                <a href="{{tage | prepend: site.asider.popularTagsPrependUrl }}" rel="tag">{{tag}}</a> ·
+                                {% endfor %}
+                            </p>
+                        </div>
+                        {% if page.share %}
+                        {%   include share.html %}
+                        {% endif %}
+                    </div>
+
+                    <!-- Post Navigation
+                    ============================================= -->
+                    <div class="post-navigation SofiaProLight">
+                        {% if page.previous.url %}
+                        <div class="previous_post">
+                            <a href="{{page.previous.url | prepend: baseurl }}" rel="prev"><span class="previous_post_icon"><i
+                                    class="ci_icon-chevron-left"></i></span>Previous post</a>
+                        </div>
+                        {% endif %}
+                        {% if page.next.url %}
+                        <div class="next_post">
+                            <a href="{{page.next.url | prepend: baseurl }}" rel="next">Next post<span class="next_post_icon"><i
+                                    class="ci_icon-chevron-right"></i></span></a>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <!-- .post-navigation end -->
+
+                </div>
+
+
+
+
+                {% if page.comments %}
+                {%   include disqus.html %}
+                {% endif %}
+
+
+            </div>
+            <!-- end span9 main-content -->
+            {% include aside.html %}
+            <!-- end span3 sidebar -->
+        </div>
+        <!-- end row -->
+    </div>
+</section>

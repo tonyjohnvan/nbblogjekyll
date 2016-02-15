@@ -1,0 +1,317 @@
+@media only screen and (min-width: 980px) and (max-width: 1190px) {
+    .container {
+        width: 960px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .container {
+        width: 748px;
+    }
+
+    #logo {
+        margin: 20px 0 23px;
+    }
+
+    #ABdev_main_header.default {
+        position: static !important;
+    }
+
+    #ABdev_main_header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 40%;
+        background: #fff;
+        z-index: 100000;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: none;
+    }
+
+    #ABdev_menu_toggle {
+        display: block;
+        /* width: 50px; */
+        /* height: 50px; */
+        /*line-height: 55px;*/
+        color: red;
+        text-align: center;
+        /* position: fixed; */
+        /* right: 15px; */
+        /* top: 52px; */
+        /* font-size: 24px; */
+        /* z-index: 9999999; */
+        /* border: 1px solid #e9eaec; */
+        /* background: rgba(245,246,248,0.3); */
+        /*line-height: 70px;*/
+        float: right;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    #ABdev_menu_toggle i {
+        position: relative;
+        top: -2px;
+    }
+
+    #ABdev_header_spacer {
+        display: none;
+    }
+
+    nav {
+        float: none !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: #232425;
+        z-index: 100000;
+        overflow-x: hidden;
+        display: none;
+        box-shadow: none;
+    }
+
+    nav > ul {
+        padding-left: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        float: left;
+        position: relative;
+        border-right: 1px solid #e8eaec;
+    }
+
+    nav > ul > li {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+
+    nav > ul > li > a {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        padding-bottom: 0;
+        font-weight: 700;
+    }
+
+    nav > ul li:hover > ul {
+        display: block;
+        z-index: auto;
+        position: static;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #ABdev_main_header.default {
+        background: #fff url("../images/robot.png") 80% center no-repeat;
+        background-size: auto 80px;
+    }
+
+    .row {
+        margin-bottom: 0;
+    }
+
+    .row > [class*="span"] {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    #logo {
+        margin: 10px 0;
+        width: 60%;
+    }
+
+    header {
+        height: auto;
+        margin-top: 0 !important;
+        position: static;
+    }
+
+    header .container {
+        position: relative;
+    }
+
+    #logo {
+        margin: 20px 0 23px;
+    }
+
+    #ABdev_menu_toggle {
+        display: block;
+        /* width: 50px; */
+        /* height: 50px; */
+        /*line-height: 55px;*/
+        color: red;
+        text-align: center;
+        /* position: fixed; */
+        /* right: 15px; */
+        /* top: 52px; */
+        /* font-size: 24px; */
+        /* z-index: 9999999; */
+        /* border: 1px solid #e9eaec; */
+        /* background: rgba(245,246,248,0.3); */
+        /*line-height: 70px;*/
+        float: right;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    #ABdev_menu_toggle i {
+        position: relative;
+        top: -2px;
+    }
+
+    #ABdev_main_header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 70%;
+        background: #fff;
+        z-index: 100000;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: none;
+    }
+
+    nav > ul {
+        clear: both;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        float: left;
+        position: relative;
+        border-right: 1px solid #e8eaec;
+    }
+
+    nav > ul > li {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+
+    nav > ul > li > a {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        padding-bottom: 0;
+        font-weight: 700;
+    }
+
+    nav > ul li:hover > ul {
+        display: block;
+        z-index: auto;
+        position: static;
+    }
+
+    /*-------- Mega Menu --------*/
+    .container {
+        width: 90%;
+    }
+
+    #ABdev_main_header.default {
+        position: static !important;
+    }
+
+    #ABdev_header_spacer {
+        display: none;
+    }
+
+    #ABdev_main_header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #ABdev_main_footer {
+        text-align: center;
+    }
+
+    #footer_columns {
+        padding-bottom: 20px;
+    }
+
+    footer #footer_copyright .footer_copyright {
+        margin-bottom: 10px;
+    }
+
+    .tagcloud a {
+        float: none;
+    }
+
+    .rpwe-thumb {
+        position: relative;
+    }
+
+    #ABdev_main_footer .rpwe-title {
+        text-align: center;
+    }
+
+    #ABdev_main_footer .rpwe-block li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact_info_widget p {
+        padding-left: 0;
+    }
+
+    .contact_info_widget i {
+        position: relative;
+        top: 2px;
+    }
+
+    .textwidget {
+        padding-right: 0;
+    }
+
+    aside.sidebar_right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .rpwe-alignleft {
+        float: none !important;
+        margin-bottom: 5px !important;
+    }
+
+    #rpwe_widget-3 .rpwe-clearfix {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .tagcloud {
+        text-align: center;
+    }
+
+    #tag_cloud-3 .tagcloud a {
+        float: none;
+    }
+
+    .sidebar-widget-heading h3 {
+        text-align: center;
+    }
+
+    .content_with_right_sidebar {
+        padding-right: 0;
+    }
+
+    .post_content .post_main {
+        padding-left: 0;
+    }
+
+    .post_main .postmeta-above .post_meta_comments {
+        float: none;
+    }
+
+    .post_meta_tags i {
+        margin-left: 0 !important;
+    }
+
+}
+

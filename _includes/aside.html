@@ -1,0 +1,82 @@
+<aside class="span3 sidebar sidebar_right">
+    <div id="about-3" class="widget widget_categories SofiaProLight">
+        <div class="sidebar-widget-heading">
+            <h3 class="SofiaProBold">About us</h3>
+        </div>
+        <p>
+            {{site.descriptionfull}}
+        </p>
+    </div>
+    <div id="categories-3" class="widget widget_categories SofiaProLight">
+        <div class="sidebar-widget-heading">
+            <h3 class="SofiaProBold">Categories</h3>
+        </div>
+        <ul>
+            {% for cats in site.asider.topCategories %}
+            <li class="cat-item cat-item-73"><a href="{{cats | prepend: site.asider.topCategoriesPrependUrl }}">{{cats}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% if page.aside.youMayAlsoLike %}
+    <div id="rpwe_widget-3" class="widget SofiaProLight">
+        <div class="sidebar-widget-heading">
+            <h3 class="SofiaProBold">You may also like</h3>
+        </div>
+        <div class="rpwe-block">
+            <ul class="rpwe-ul">
+                <li class="rpwe-li rpwe-clearfix">
+                    {% if page.aside.youMayAlsoLike.imageUrl %}
+                    <a href="{{page.aside.youMayAlsoLike.url}}" rel="bookmark">
+                        <img class="rpwe-alignleft rpwe-thumb"
+                             src="{{page.aside.youMayAlsoLike.imageUrl | prepend: site.baseurl}}"
+                             alt="article">
+                    </a>
+                    {% endif %}
+                    <h3 class="rpwe-title">
+                        <a href="{{page.aside.youMayAlsoLike.url}}" title="" rel="bookmark">{{page.aside.youMayAlsoLike.title}}</a>
+                    </h3>
+                    <time datetime="2015" class="rpwe-time published">{{page.aside.youMayAlsoLike.time}}</time>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+
+    <div id="tag_cloud-3" class="widget SofiaProLight">
+        <div class="sidebar-widget-heading">
+            <h3 class="SofiaProBold">popular tags</h3>
+        </div>
+        <div class="tagcloud">
+
+            {% for tags in site.asider.popularTags %}
+            <a href='{{tags | prepend: site.asider.popularTagsPrependUrl }}' style='font-size: 22pt;'>{{tags}}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="text-6" class="widget SofiaProLight">
+        <div class="sidebar-widget-heading">
+            <h3 class="SofiaProBold">LATEST TWEETS</h3>
+        </div>
+        <div class="textwidget">
+            <div class="ab-tweet-scroller " data-fx="fade" data-play="true" data-easing="linear"
+                 data-duration="1000" data-pauseonhover="immediate" data-timeoutduration="5000">
+                <ul class="ab-tweet-scroller-inner ">
+                    <li class="ab-tweet-item SofiaProLight">
+                        <a class="ab-tweet-username" href="{{site.asider.latestTweet.url}}" target="_blank">@‏{{site.asider.latestTweet.poster}}</a><a
+                            class="ab-tweet-date SofiaProMediumCondensed-Italic"
+                            href="" target="_blank">{{site.asider.latestTweet.time}}</a>
+                        <div class="ab-tweet-text SofiaProLight">
+                            {{site.asider.latestTweet.content}}
+                        </div>
+                    </li>
+                </ul>
+                <div class="ab-tweet-navigation">
+                    <a href="#" class="ab-tweet-prev">&lt;</a><a href="#" class="ab-tweet-next">&gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</aside>

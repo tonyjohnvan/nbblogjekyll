@@ -1,0 +1,39 @@
+<div class="postmeta-under clearfix">
+    <div class="postmeta-share">
+        <p class="post_meta_share">
+            <span class="SofiaProMediumCondensed">Like it ?  Share on</span>
+            <a class="post_share_twitter dnd_tooltip"
+               href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | prepend: site.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank"
+               title="Share on Twitter" data-gravity="s"><i class="ci_icon-twitter"></i></a>
+            <a class="post_share_facebook dnd_tooltip"
+               href="https://facebook.com/sharer.php?u={{ page.url | prepend: site.url}}" rel="nofollow" target="_blank"
+               title="Share on Facebook" data-gravity="s"><i class="ci_icon-facebook"></i></a>
+            <a class="post_share_googleplus dnd_tooltip"
+               href="https://plus.google.com/share?url={{ page.url | prepend: site.url}}" rel="nofollow" target="_blank"
+               title="Share on Google+" data-gravity="s"><i class="ci_icon-googleplus"></i></a>
+            <a class="post_share_linkedin dnd_tooltip"
+               href="http://www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.url}}&title={{ page.title }}" rel="nofollow" target="_blank"
+               title="Share on Linkedin" data-gravity="s"><i class="ci_icon-linkedin"></i></a>
+        </p>
+    </div>
+    <script>
+        var base_url = window.location.href;
+        base_url=base_url.replace("localhost:4000", "blog.nimbledroid.com")
+        var twitter_url = "https://cdn.api.twitter.com/1/urls/count.json?url=" + base_url + "&callback=?";
+        var fb_url = "http://graph.facebook.com/?id=" + base_url;
+        var linkedin_url = "http://www.linkedin.com/countserv/count/share?url=" + base_url + "&format=jsonp&callback=?";
+        $.getJSON(twitter_url, function(twit){
+            if (twit.count > 5) {
+                $("#twitter").append(twit.count);
+            }
+        });
+        $.getJSON(fb_url, function(fb){
+            $("#fb").append(fb.shares);
+        });
+        $.getJSON(linkedin_url, function(li){
+            if (li.count > 5){
+                $("#linkedin").append(li.count);
+            }
+        });
+    </script>
+</div>
