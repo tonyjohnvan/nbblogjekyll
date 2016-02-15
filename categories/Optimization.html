@@ -4,6 +4,8 @@ layout: default
 
 {% include listHead.html %}
     {% for post in site.posts %}
-        {% include list.html %}
+        {% if post.category == "Optimization" %}
+            {% include list.html %}
+        {% endif %}
     {% endfor %}
 {% include listTail.html %}

@@ -48,4 +48,7 @@ value it has in the English version. Be sure to set `visible: true`.
 Aside Menu Configuration:
 --------
 1. The aside menu contains site description, which is in '_config.yml' 'descriptionfull'
-2. The
+2. The aside YOU MAY ALSO LIKE is a refer of the post's 'name' key, use that for referral.
+3. before adding the twitter plugin, the latest twitter section is set on 'site.asider.latestTweet',
+manually update is required at this stage of time.
+4. the posts are now organized as categories, also have tags, please specify them in the post markdown file.

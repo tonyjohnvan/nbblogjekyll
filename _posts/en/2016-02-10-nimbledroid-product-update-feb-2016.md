@@ -10,13 +10,13 @@ mainpic:
 youMayAlsoLike: "fluid app"
 tags:
     - Development
-    - App Dev
     - Technology
     - Android
     - Optimization
     - Software
 imageUrl: assets/febupdates/feb_insight.png
 categories: en post
+category: Development
 ---
 
 We’ve been hard at work over the past few weeks making NimbleDroid an even more powerful tool for Android developers seeking to improve the performance of their apps. In this post we’ll discuss some of the biggest changes we’ve made in this update, and then offer a quick preview of what to expect moving forward.

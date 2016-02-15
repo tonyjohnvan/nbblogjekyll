@@ -10,7 +10,6 @@ mainpic:
 youMayAlsoLike: "fluid app"
 tags:
     - Development
-    - App Dev
     - Technology
     - Android
     - Optimization
@@ -18,6 +17,7 @@ tags:
 
 imageUrl: assets/process.png
 categories: en post
+category: Design
 ---
 
 In [a previous blog post]({{ site.url }}{{ site.baseurl }}/2015/09/03/why-you-should-care-about-app-performance.html), we discussed the importance of monitoring your app's performance. This time, we’ll show you exactly how to go about doing this.  We’ve spoken with several developer teams from some of the most popular apps in the world, including WeChat and Yahoo News Digest, about the best practices towards building fluid apps. From our own experiences and our talks with these leading developers, we’ve found that the most important practice in building great apps is  **establishing a performance optimization process**:

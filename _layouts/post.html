@@ -43,7 +43,7 @@ layout: default
                                 <i class="ci_icon-tags"></i>
 
                                 {% for tag in page.tags %}
-                                <a href="{{tage | prepend: site.asider.popularTagsPrependUrl }}" rel="tag">{{tag}}</a> ·
+                                <a href="{{tag | prepend: site.asider.popularTagsPrependUrl }}" rel="tag">{{tag}}</a> ·
                                 {% endfor %}
                             </p>
                         </div>
@@ -57,13 +57,13 @@ layout: default
                     <div class="post-navigation SofiaProLight">
                         {% if page.previous.url %}
                         <div class="previous_post">
-                            <a href="{{page.previous.url | prepend: baseurl }}" rel="prev"><span class="previous_post_icon"><i
+                            <a href="{{page.previous.url}}" rel="prev"><span class="previous_post_icon"><i
                                     class="ci_icon-chevron-left"></i></span>Previous post</a>
                         </div>
                         {% endif %}
                         {% if page.next.url %}
                         <div class="next_post">
-                            <a href="{{page.next.url | prepend: baseurl }}" rel="next">Next post<span class="next_post_icon"><i
+                            <a href="{{page.next.url}}" rel="next">Next post<span class="next_post_icon"><i
                                     class="ci_icon-chevron-right"></i></span></a>
                         </div>
                         {% endif %}

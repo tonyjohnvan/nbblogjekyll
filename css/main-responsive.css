@@ -302,7 +302,7 @@
     }
 
     .post_content .post_main {
-        padding-left: 0;
+        padding-left: 10px;
     }
 
     .post_main .postmeta-above .post_meta_comments {
@@ -311,6 +311,10 @@
 
     .post_meta_tags i {
         margin-left: 0 !important;
+    }
+
+    #footer_menu.span7{
+        text-align: center !important;
     }
 
 }

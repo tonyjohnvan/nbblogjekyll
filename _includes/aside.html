@@ -13,7 +13,11 @@
         </div>
         <ul>
             {% for cats in site.asider.topCategories %}
+            {% if cats == "All Categories" %}
+            <li class="cat-item cat-item-73"><a href="{{site.baseurl}}">{{cats}}</a></li>
+            {% else %}
             <li class="cat-item cat-item-73"><a href="{{cats | prepend: site.asider.topCategoriesPrependUrl }}">{{cats}}</a></li>
+            {% endif %}
             {% endfor %}
         </ul>
     </div>

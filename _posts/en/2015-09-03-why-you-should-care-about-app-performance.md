@@ -10,7 +10,6 @@ mainpic:
 youMayAlsoLike: "fluid app"
 tags:
     - Development
-    - App Dev
     - Technology
     - Android
     - Optimization
@@ -18,6 +17,7 @@ tags:
 
 imageUrl: assets/abc-news-app-negative-review.png
 categories: en post
+category: Optimization
 ---
 
 Android is dominating the global and national mobile app market. As a

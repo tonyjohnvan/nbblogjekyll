@@ -77,7 +77,7 @@ footer:
     contactEmail: contact@nimbledroid.com
 
 asider:
-    popularTagsPrependUrl: /index.html?tags=
+    popularTagsPrependUrl: /tags/
     popularTags:
         - Development
         - Technology
@@ -89,9 +89,9 @@ asider:
         url: https://twitter.com/nimbledroid
         time: Feb 1
         content: Devs of <a href="">@LiveScore</a> can shave 1.1s off start time with custom Joda-Time DateTimeZone! <a href="">bit.ly/1JTOKzE</a> <a href="">@jodastephen</a> <a href="">#AndroidDev</a>
-    topCategoriesPrependUrl: /index.html?cats=
+    topCategoriesPrependUrl: /categories/
     topCategories:
+        - All Categories
         - Development
         - Optimization
-        - App Design
-        - Integration
+        - Design
