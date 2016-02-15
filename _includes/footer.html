@@ -1,120 +1,159 @@
-
 <footer id="ABdev_main_footer">
 
-  <div id="footer_columns">
-    <div class="container">
-      <div class="row">
-        <div class="span4 clearfix">
-          <div id="text-2" class="widget widget_text">
-            <h3 class='footer-widget-heading'>ABOUT US</h3>
-            <div class="textwidget">
-              {{site.description}}<br><br>
-              <a href="{{ site.footer.About }}" class="footer_text_readmore">Read more<i class="icon-chevron-right"></i></a>
-            </div>
-          </div>
-          <div id="text-5" class="widget widget_text">
+    <div id="footer_columns">
+        <div class="container">
+            <div class="row">
+                <div class="span4 clearfix">
+                    <div id="text-2" class="widget widget_text">
+                        <h3 class='footer-widget-heading'>ABOUT US</h3>
+                        <div class="textwidget">
+                            {{site.description}}<br><br>
+                            <a href="{{ site.footer.About }}" class="footer_text_readmore">Read more<i
+                                    class="icon-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div id="text-5" class="widget widget_text">
 
-            <div class="textwidget">
-              <div class="sidebar_social">
-                <div class="dnd_follow_us">
-                  <a class="dnd_socialicon_facebook" href="https://www.facebook.com/{{site.facebook_username}}" target="_blank"><i
-                          class="ci_icon-facebook"></i></a>
-                  <a class="dnd_socialicon_twitter" href="https://twitter.com/{{site.twitter_username}}" target="_blank"><i
-                          class="ci_icon-twitter"></i></a>
-                  <a class="dnd_socialicon_googleplus" href="https://plus.google.com/{{site.googleplus_username}}" target="_blank"><i
-                          class="ci_icon-googleplus"></i></a>
-                  <a class="dnd_socialicon_linkedin" href="https://www.linkedin.com/company/{{site.linkedin_username}}" target="_blank"><i
-                          class="ci_icon-linkedin"></i></a>
+                        <div class="textwidget">
+                            <div class="sidebar_social">
+                                <div class="dnd_follow_us">
+                                    <a class="dnd_socialicon_facebook"
+                                       href="https://www.facebook.com/{{site.facebook_username}}" target="_blank"><i
+                                            class="ci_icon-facebook"></i></a>
+                                    <a class="dnd_socialicon_twitter"
+                                       href="https://twitter.com/{{site.twitter_username}}" target="_blank"><i
+                                            class="ci_icon-twitter"></i></a>
+                                    <a class="dnd_socialicon_googleplus"
+                                       href="https://plus.google.com/{{site.googleplus_username}}" target="_blank"><i
+                                            class="ci_icon-googleplus"></i></a>
+                                    <a class="dnd_socialicon_linkedin"
+                                       href="https://www.linkedin.com/company/{{site.linkedin_username}}"
+                                       target="_blank"><i
+                                            class="ci_icon-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+
+                <div class="span4 clearfix">
+                    <div id="rpwe_widget-4" class="widget rpwe_widget recent-posts-extended">
+                        <h3 class='footer-widget-heading'>LATEST POSTS</h3>
+                        <div class="rpwe-block">
+                            <ul class="rpwe-ul">
+
+                                {% for post in site.posts limit:3 %}
+                                <li class="rpwe-li rpwe-clearfix">
+                                    {% if post.imageUrl %}
+                                    <a href="{{ post.url }}">
+                                        <img class="rpwe-alignleft rpwe-thumb"
+                                             src="{{ post.imageUrl | prepend: site.baseurl }}"
+                                             alt="article">
+                                    </a>
+                                    {% endif %}
+                                    <h3 class="rpwe-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                    <time datetime="{{ post.date | date_to_string }}" class="rpwe-time">{{ post.date |
+                                        date_to_string }}
+                                    </time>
+                                </li>
+                                {% endfor %}
+
+
+                                <!--<li class="rpwe-li rpwe-clearfix">-->
+                                <!--{% if site.footer.recentPosts.post2.imageUrl %}-->
+                                <!--<a href="{{ site.footer.recentPosts.post2.url }}">-->
+                                <!--<img class="rpwe-alignleft rpwe-thumb" src="{{ site.footer.recentPosts.post2.imageUrl | prepend: site.baseurl }}"-->
+                                <!--alt="article">-->
+                                <!--</a>-->
+                                <!--{% endif %}-->
+                                <!--<h3 class="rpwe-title"><a href="{{ site.footer.recentPosts.post2.url }}">{{ site.footer.recentPosts.post2.title }}</a></h3>-->
+                                <!--<time datetime="{{ site.footer.recentPosts.post1.time }}" class="rpwe-time">{{ site.footer.recentPosts.post1.time }}</time>-->
+                                <!--</li>-->
+                                <!--<li class="rpwe-li rpwe-clearfix">-->
+                                <!--{% if site.footer.recentPosts.post2.imageUrl %}-->
+                                <!--<a href="{{ site.footer.recentPosts.post3.url }}">-->
+                                <!--<img class="rpwe-alignleft rpwe-thumb" src="{{ site.footer.recentPosts.post3.imageUrl | prepend: site.baseurl }}"-->
+                                <!--alt="article">-->
+                                <!--</a>-->
+                                <!--{% endif %}-->
+                                <!--<h3 class="rpwe-title"><a href="{{ site.footer.recentPosts.post3.url }}">{{ site.footer.recentPosts.post3.title }}</a></h3>-->
+                                <!--<time datetime="{{ site.footer.recentPosts.post3.time }}" class="rpwe-time">{{ site.footer.recentPosts.post3.time }}</time>-->
+                                <!--</li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="span4 clearfix">
+                    <div id="contact-info-2" class="widget contact-info">
+                        <h3 class='footer-widget-heading'>GET IN TOUCH</h3>
+                        <div class='contact_info_widget'>
+                            <p><i class="ci_icon-envelope"></i><a href="mailto:{{ site.footer.contactEmail }}">{{
+                                site.footer.contactEmail }}</a></p>
+                            <p><i class="ci_icon-home"></i>588 Broadway, Suite 503 <br> <br>New York, NY 10012</p>
+                        </div>
+                    </div>
+
+                    <form id="subscribeArea" class="widget widget_text mailchimp">
+                        <h3 class='footer-widget-heading'>SUBSCRIBE</h3>
+                        <h4 class="subscription-success"></h4>
+                        <h4 class="subscription-error"></h4>
+                        <div class="textwidget text-center">
+                            <input class="subscribeInput" type="email" placeholder="Your Email"/>
+                            <button class="subscribeButton" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
-          </div>
         </div>
-
-        <div class="span4 clearfix">
-          <div id="rpwe_widget-4" class="widget rpwe_widget recent-posts-extended">
-            <h3 class='footer-widget-heading'>LATEST POSTS</h3>
-            <div class="rpwe-block">
-              <ul class="rpwe-ul">
-
-                {% for post in site.posts limit:3 %}
-                <li class="rpwe-li rpwe-clearfix">
-                  {% if post.imageUrl %}
-                  <a href="{{ post.url }}">
-                    <img class="rpwe-alignleft rpwe-thumb" src="{{ post.imageUrl | prepend: site.baseurl }}"
-                         alt="article">
-                  </a>
-                  {% endif %}
-                  <h3 class="rpwe-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                  <time datetime="{{ post.date | date_to_string }}" class="rpwe-time">{{ post.date | date_to_string }}</time>
-                </li>
-                {% endfor %}
-
-
-                <!--<li class="rpwe-li rpwe-clearfix">-->
-                  <!--{% if site.footer.recentPosts.post2.imageUrl %}-->
-                  <!--<a href="{{ site.footer.recentPosts.post2.url }}">-->
-                    <!--<img class="rpwe-alignleft rpwe-thumb" src="{{ site.footer.recentPosts.post2.imageUrl | prepend: site.baseurl }}"-->
-                         <!--alt="article">-->
-                  <!--</a>-->
-                  <!--{% endif %}-->
-                  <!--<h3 class="rpwe-title"><a href="{{ site.footer.recentPosts.post2.url }}">{{ site.footer.recentPosts.post2.title }}</a></h3>-->
-                  <!--<time datetime="{{ site.footer.recentPosts.post1.time }}" class="rpwe-time">{{ site.footer.recentPosts.post1.time }}</time>-->
-                <!--</li>-->
-                <!--<li class="rpwe-li rpwe-clearfix">-->
-                  <!--{% if site.footer.recentPosts.post2.imageUrl %}-->
-                  <!--<a href="{{ site.footer.recentPosts.post3.url }}">-->
-                    <!--<img class="rpwe-alignleft rpwe-thumb" src="{{ site.footer.recentPosts.post3.imageUrl | prepend: site.baseurl }}"-->
-                         <!--alt="article">-->
-                  <!--</a>-->
-                  <!--{% endif %}-->
-                  <!--<h3 class="rpwe-title"><a href="{{ site.footer.recentPosts.post3.url }}">{{ site.footer.recentPosts.post3.title }}</a></h3>-->
-                  <!--<time datetime="{{ site.footer.recentPosts.post3.time }}" class="rpwe-time">{{ site.footer.recentPosts.post3.time }}</time>-->
-                <!--</li>-->
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="span4 clearfix">
-          <div id="contact-info-2" class="widget contact-info">
-            <h3 class='footer-widget-heading'>GET IN TOUCH</h3>
-            <div class='contact_info_widget'>
-              <p><i class="ci_icon-envelope"></i><a href="mailto:{{ site.footer.contactEmail }}">{{ site.footer.contactEmail }}</a></p>
-              <p><i class="ci_icon-home"></i>588 Broadway, Suite 503 <br> <br>New York, NY 10012</p>
-            </div>
-          </div>
-          <div id="subscribeArea" class="widget widget_text">
-            <h3 class='footer-widget-heading'>SUBSCRIBE</h3>
-            <div class="textwidget text-center">
-              <input class="subscribeInput" placeholder="Your Email"/>
-              <button class="subscribeButton">Subscribe</button>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 
-  <div id="footer_copyright">
-    <div class="container">
-      <div class="row">
-        <div class="span5 footer_copyright">
-          © {{ site.footer.copyrightTime }} NimbleDroid, All rights reserved
+    <div id="footer_copyright">
+        <div class="container">
+            <div class="row">
+                <div class="span5 footer_copyright">
+                    © {{ site.footer.copyrightTime }} NimbleDroid, All rights reserved
+                </div>
+                <div id="footer_menu" class="span7 text-right">
+                    <ul id="footer_menu_inner" class="">
+                        <li class="menu-item "><a href="{{ site.footer.Home }}">Home</a></li>
+                        <li class="menu-item "><a href="{{ site.footer.Play }}">Play Apps</a></li>
+                        <li class="menu-item "><a href="{{ site.footer.Pricing }}">Pricing</a></li>
+                        <li class="menu-item "><a href="{{ site.footer.Account }}">Account</a></li>
+                        <li class="menu-item "><a href="{{ site.footer.Help }}">Help</a></li>
+                        <li class="menu-item current-menu-item"><a href="{{ site.footer.Blog }}">Blog</a></li>
+                        <li class="menu-item "><a href="{{ site.footer.About }}">About Us</a></li>
+                        <li class="menu-item "><a href="{{ site.footer.Privacy }}">Privacy & Terms</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div id="footer_menu" class="span7 text-right">
-          <ul id="footer_menu_inner" class="">
-            <li class="menu-item "><a href="{{ site.footer.Home }}">Home</a></li>
-            <li class="menu-item "><a href="{{ site.footer.Play }}">Play Apps</a></li>
-            <li class="menu-item "><a href="{{ site.footer.Pricing }}">Pricing</a></li>
-            <li class="menu-item "><a href="{{ site.footer.Account }}">Account</a></li>
-            <li class="menu-item "><a href="{{ site.footer.Help }}">Help</a></li>
-            <li class="menu-item current-menu-item"><a href="{{ site.footer.Blog }}">Blog</a></li>
-            <li class="menu-item "><a href="{{ site.footer.About }}">About Us</a></li>
-            <li class="menu-item "><a href="{{ site.footer.Privacy }}">Privacy & Terms</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
+    <script src="/js/jquery.ajaxchimp.min.js"></script>
+    <script>
+
+        $('.mailchimp').ajaxChimp({
+            callback: mailchimpCallback,
+            url: "http://nimbledroid.us11.list-manage.com/subscribe/post?u=fac135320a546db168f0a255f&amp;id=4d88516529" // reference http://kb.mailchimp.com/lists/signup-forms/host-your-own-signup-forms
+        });
+
+        function mailchimpCallback(resp) {
+            if (resp.result === 'success') {
+                $('.subscription-success').html('<i class="icon_check_alt2"></i><br/>' + resp.msg).fadeIn(100);
+                $('.subscription-success').fadeOut(15500);
+
+            } else if (resp.result === 'error') {
+                $('.subscription-error').html('<i class="icon_close_alt2"></i><br/>' + resp.msg).fadeIn(1000);
+            }
+        }
+        function cleanDialog() {
+            $('.subscription-error').fadeOut(500);
+            $('.subscription-success').fadeOut(500);
+        }
+        $('.subscribeInput').on('change', cleanDialog);
+        $('.subscribeButton').on('click', cleanDialog);
+        $('.subscription-error').on('click', cleanDialog);
+        $('.subscription-success').on('click', cleanDialog);
+    </script>
 </footer>
