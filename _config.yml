@@ -38,7 +38,7 @@ authors:
     display_name: Anton Krasov
     email: anton.krasov@gmail.com
     github: antonkrasov
-  junfengandsarvar:
+  junfeng/sarvar:
     display_name: Junfeng Yang | Sarvar Dhillon
   josh:
     display_name: Josh Diehl
@@ -75,22 +75,6 @@ footer:
     About: https://www.nimbledroid.com/about
     Privacy: https://www.nimbledroid.com/privacy
     contactEmail: contact@nimbledroid.com
-    recentPosts:
-        post1:
-            url: /jekyll/update/2016/02/14/welcome-to-jekyll.html
-            title: Why You Should Care about Your Android App's Performance
-            time: September 3, 2015
-            imageUrl: images/temp.jpg
-        post2:
-            url: /jekyll/update/2016/02/14/welcome-to-jekyll.html
-            title: Why You Should Care about Your Android App's Performance
-            time: September 3, 2015
-            imageUrl: images/temp.jpg
-        post3:
-            url: /jekyll/update/2016/02/14/welcome-to-jekyll.html
-            title: Why You Should Care about Your Android App's Performance
-            time: September 3, 2015
-            imageUrl: images/temp.jpg
 
 asider:
     popularTagsPrependUrl: /index.html?tags=

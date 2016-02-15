@@ -7,12 +7,7 @@ name: "update 1"
 lang: "English"
 visible: true
 mainpic:
-aside:
-    youMayAlsoLike:
-        url: /jekyll/update/2016/02/14/welcome-to-jekyll.html
-        title: Why You Should Care about Your Android App's Performance
-        time: September 3, 2015
-        imageUrl: images/temp.jpg
+youMayAlsoLike: "fluid app"
 tags:
     - Development
     - App Dev

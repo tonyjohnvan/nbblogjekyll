@@ -39,13 +39,13 @@
 
                 {% for post in site.posts limit:3 %}
                 <li class="rpwe-li rpwe-clearfix">
-                  {% if site.footer.recentPosts.post1.imageUrl %}
+                  {% if post.imageUrl %}
                   <a href="{{ post.url }}">
                     <img class="rpwe-alignleft rpwe-thumb" src="{{ post.imageUrl | prepend: site.baseurl }}"
                          alt="article">
                   </a>
                   {% endif %}
-                  <h3 class="rpwe-title"><a href="{{ site.footer.recentPosts.post1.url }}">{{ post.title }}</a></h3>
+                  <h3 class="rpwe-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
                   <time datetime="{{ post.date | date_to_string }}" class="rpwe-time">{{ post.date | date_to_string }}</time>
                 </li>
                 {% endfor %}

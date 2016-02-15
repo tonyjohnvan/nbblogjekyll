@@ -18,26 +18,31 @@
         </ul>
     </div>
 
-    {% if page.aside.youMayAlsoLike %}
+    {% if page.youMayAlsoLike %}
     <div id="rpwe_widget-3" class="widget SofiaProLight">
         <div class="sidebar-widget-heading">
             <h3 class="SofiaProBold">You may also like</h3>
         </div>
         <div class="rpwe-block">
             <ul class="rpwe-ul">
-                <li class="rpwe-li rpwe-clearfix">
-                    {% if page.aside.youMayAlsoLike.imageUrl %}
-                    <a href="{{page.aside.youMayAlsoLike.url}}" rel="bookmark">
-                        <img class="rpwe-alignleft rpwe-thumb"
-                             src="{{page.aside.youMayAlsoLike.imageUrl | prepend: site.baseurl}}"
-                             alt="article">
-                    </a>
+                {% for post in site.posts %}
+                    {% if post.name == page.youMayAlsoLike %}
+                        <li class="rpwe-li rpwe-clearfix">
+                            {% if post.imageUrl %}
+                            <a href="{{post.url}}" rel="bookmark">
+                                <img class="rpwe-alignleft rpwe-thumb"
+                                     src="{{post.imageUrl | prepend: site.baseurl}}"
+                                     alt="article">
+                            </a>
+                            {% endif %}
+                            <h3 class="rpwe-title">
+                                <a href="{{ post.url }}" title="" rel="bookmark">{{post.title}}</a>
+                            </h3>
+                            <time datetime="{{ post.date | date_to_string }}" class="rpwe-time published">{{ post.date | date_to_string }}</time>
+                        </li>
                     {% endif %}
-                    <h3 class="rpwe-title">
-                        <a href="{{page.aside.youMayAlsoLike.url}}" title="" rel="bookmark">{{page.aside.youMayAlsoLike.title}}</a>
-                    </h3>
-                    <time datetime="2015" class="rpwe-time published">{{page.aside.youMayAlsoLike.time}}</time>
-                </li>
+                {% endfor %}
+
             </ul>
         </div>
     </div>

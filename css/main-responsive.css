@@ -108,7 +108,7 @@
 @media only screen and (max-width: 767px) {
 
     #ABdev_main_header.default {
-        background: #fff url("../images/robot.png") 80% center no-repeat;
+        background: #fff url("../assets/images/robot.png") 80% center no-repeat;
         background-size: auto 80px;
     }
 

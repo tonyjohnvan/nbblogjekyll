@@ -229,7 +229,7 @@ h3 {
     z-index: 9999;
     width: 100%;
     position: fixed;
-    background: #fff url("../images/robot.png") center center no-repeat;
+    background: #fff url("../assets/images/robot.png") center center no-repeat;
     background-size: auto 80px;
 }
 
@@ -356,6 +356,11 @@ nav > ul li:hover > ul {
     position: relative;
     top: 2px;
     color: #9fa4af;
+    transition: all 180ms ease-in;
+    -webkit-transition: all 180ms ease-in;
+}
+.post_meta_tags i:hover {
+    color: red;
 }
 
 .post_main .postmeta-above {
@@ -1163,4 +1168,264 @@ a.ab-tweet-next:hover {
 .post_content figure{
     text-align: center;
     margin: 20px auto;
+}
+
+
+.color-red {
+    color: red !important;
+}
+
+/* -=-=-=-=-=-=-=-=- Blog List -=-=-=-=-=-=-=-=-=- */
+.blog_category_index_right_mini .has-post-thumbnail.post_wrapper{
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    position: relative;
+    border: 0;
+}
+
+.blog_category_index_right_mini .post_wrapper{
+    margin-bottom: 100px;
+    padding-bottom: 0;
+    position: relative;
+    border: 1px solid #e9eaec;
+    border-radius: 5px;
+}
+
+.blog_category_index_right_mini .has-post-thumbnail .post_content{
+    padding-bottom: 50px;
+}
+
+.blog_category_index_right_mini .has-post-thumbnail .post_content:before{
+    content: "";
+    border-bottom: 1px solid #e9eaec;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.blog_category_index_right_mini .post_content{
+    padding-bottom: 0px;
+}
+
+.blog_category_index_right_mini .post_content:before{
+    content: "";
+    border-bottom: 1px solid #e9eaec;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+
+}
+
+.blog_category_index_right_mini .has-post-thumbnail .post_main{
+    margin: 0;
+    padding: 0;
+}
+
+.blog_category_index_right_mini .post_main{
+    margin: 0;
+    padding: 30px;
+}
+
+.blog_category_index_right_mini .post_main h5{
+    display: inline-block;
+    line-height: 22px;
+}
+
+.blog_category_index_right_mini .post_main h5 a{
+    color: #700000;
+}
+
+.blog_category_index_right_mini .post_main h5 a:hover{
+    color: red;
+}
+
+.blog_category_index_right_mini .has-post-thumbnail .post_main .post_author{
+    display: block;
+    margin: 0 0 15px;
+}
+
+.blog_category_index_right_mini .post_main .post_author{
+    display: block;
+    margin: 6px 0 15px;
+}
+
+.blog_category_index_right_mini .post_main .post_author span{
+    position: relative;
+    margin-right: 15px;
+}
+
+.blog_category_index_right_mini .post_main .post_author span i{
+    position: relative;
+    font-size: 4px;
+    right: -8px;
+    top: 0px;
+}
+
+.blog_category_index_right_mini .post_main .post_author span:last-child{
+    margin-right: 0;
+}
+
+.blog_category_index_right_mini .post_main .post_author span.post_category a{
+    color: #848994;
+}
+
+.blog_category_index_right_mini .post_main .post_author span.post_category a:hover{
+    color: red;
+}
+
+.blog_category_index_right_mini .post_main .post_main_inner_wrapper .post-readmore{
+    border-top: 0;
+}
+
+.blog_category_index_right_mini .post_main .post_main_inner_wrapper .post-readmore .post_meta_tags{
+    padding-top: 8px;
+    margin-bottom: 0;
+    color: #848994;
+}
+.blog_category_index_right_mini .post_main .post_main_inner_wrapper .post-readmore .post_meta_tags:hover{
+    color: red;
+}
+
+.blog_category_index_right_mini .post_main .post_main_inner_wrapper .post-readmore .more-link{
+    width: 143px;
+    height: 38px;
+    background: #f5f6f8;
+    border: 1px solid #eaecef;
+    border-radius: 45px;
+    color: red;
+    text-transform: uppercase;
+    font-family: 'SofiaProLight';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 7px;
+    display: inline-block;
+}
+
+.blog_category_index_right_mini .post_main .post_main_inner_wrapper .post-readmore .more-link:hover{
+    width: 143px;
+    height: 38px;
+    background: red;
+    border: 1px solid transparent;
+    border-radius: 45px;
+    color: #fff;
+}
+
+.slogan::before,
+.slogan::after{
+    color: red;
+    font-size: 120px;
+    width: 0;
+    height: 0;
+    font-family: "Arial Black";
+    font-style: italic;
+    opacity: 0.1;
+}
+.slogan::before{
+    content: '“';
+    float: left;
+    margin-top: -15px;
+}
+.slogan::after{
+    /*content: '”';*/
+    /*float: right;*/
+    position: absolute;
+    margin-bottom: -15px;
+    margin-left: 500px;
+}
+
+
+#blog_pagination{
+    padding-top: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#blog_pagination .pagination{
+    position: relative;
+}
+
+#blog_pagination .page-numbers{
+    color: #9fa4af;
+    font-size: 12px;
+    line-height: 29px;
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 50%;
+    border: 1px solid #e9eaec;
+    width: 32px;
+    height: 32px;
+    background: -webkit-linear-gradient(#fff, #f5f6f8);
+    background: -o-linear-gradient(#fff, #f5f6f8);
+    background: -moz-linear-gradient(#fff, #f5f6f8);
+    background: linear-gradient(#fff, #f5f6f8);
+    text-align: center;
+}
+
+
+#blog_pagination i{
+    font-size: 8px;
+    line-height: 29px;
+    margin: 0 5px;
+}
+
+#blog_pagination .page-numbers:hover{
+    background: red;
+    color: #fff;
+}
+
+#blog_pagination .page-numbers.current{
+    color: red;
+    text-align: center;
+}
+
+#blog_pagination .page-numbers.current:hover{
+    background: -webkit-linear-gradient(#fff, #f5f6f8);
+    background: -o-linear-gradient(#fff, #f5f6f8);
+    background: -moz-linear-gradient(#fff, #f5f6f8);
+    background: linear-gradient(#fff, #f5f6f8);
+    color: red;
+}
+
+#blog_pagination .prev{
+    margin-right: 6px;
+    text-align: center;
+}
+
+#blog_pagination .next{
+    text-align: center;
+}
+
+#inner_post_pagination{
+    margin-bottom: 40px;
+}
+
+#inner_post_pagination > span,
+#inner_post_pagination > a{
+    color: #9fa4af;
+    font-size: 12px;
+    line-height: 29px;
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 50%;
+    border: 1px solid #e9eaec;
+    width: 32px;
+    height: 32px;
+    background: -webkit-linear-gradient(#fff, #f5f6f8);
+    background: -o-linear-gradient(#fff, #f5f6f8);
+    background: -moz-linear-gradient(#fff, #f5f6f8);
+    background: linear-gradient(#fff, #f5f6f8);
+    text-align: center;
+}
+
+#inner_post_pagination > a span{
+    border: none;
+}
+
+#inner_post_pagination > a:hover{
+    color: red;
 }
