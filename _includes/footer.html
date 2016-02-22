@@ -77,8 +77,8 @@
                         <h4 class="subscription-success"></h4>
                         <h4 class="subscription-error"></h4>
                         <div class="textwidget text-center">
-                            <input class="subscribeInput" type="email" placeholder="Your Email"/>
-                            <button class="subscribeButton" type="submit">Subscribe</button>
+                            <!--<input class="subscribeInput" type="email" placeholder="Your Email"/>-->
+                            <a class="subscribeButton" onclick="_mc.openPopupForm(); return false;">Subscribe</a>
                         </div>
                     </form>
 
@@ -108,9 +108,9 @@
             </div>
         </div>
     </div>
-    <script src={{"js/jquery.ajaxchimp.min.js" | prepend site.baseurl}}></script>
+    <!--<script src={{"js/jquery.ajaxchimp.min.js" | prepend site.baseurl}}></script>-->
     <script>
-        $('.mailchimp').ajaxChimp({
+        /*$('.mailchimp').ajaxChimp({
             callback: mailchimpCallback,
             url: "http://nimbledroid.us11.list-manage.com/subscribe/post?u=fac135320a546db168f0a255f&amp;id=4d88516529" // reference http://kb.mailchimp.com/lists/signup-forms/host-your-own-signup-forms
         });
@@ -131,10 +131,11 @@
         $('.subscribeInput').on('change', cleanDialog);
         $('.subscribeButton').on('click', cleanDialog);
         $('.subscription-error').on('click', cleanDialog);
-        $('.subscription-success').on('click', cleanDialog);
+        $('.subscription-success').on('click', cleanDialog);*/
         // Menu Toggle
         $('#ABdev_menu_toggle').on('click',function(){
             $('#logo_menu_bar>.container>nav').toggle();
         })
     </script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"fac135320a546db168f0a255f","lid":"4d88516529"}) })</script>
 </footer>
