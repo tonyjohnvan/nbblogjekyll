@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'core_icomoon';
-	src:url("http://localhost:63342/ndblog/css/fonts/core_icomoon3093.eot?-4uefhn");
-	src:url("http://localhost:63342/ndblog/css/fonts/core_icomoond41d.eot#iefix-4uefhn") format('embedded-opentype'),
-		url("http://localhost:63342/ndblog/css/fonts/core_icomoon3093.woff?-4uefhn") format('woff'),
-		url("http://localhost:63342/ndblog/css/fonts/core_icomoon3093.html?-4uefhn") format('truetype'),
-		url("http://localhost:63342/ndblog/css/fonts/core_icomoon3093.svg?-4uefhn#core_icomoon") format('svg');
+	src:url("fonts/core_icomoon3093.eot?-4uefhn");
+	src:url("fonts/core_icomoond41d.eot#iefix-4uefhn") format('embedded-opentype'),
+		url("fonts/core_icomoon3093.woff?-4uefhn") format('woff'),
+		url("fonts/core_icomoon3093.html?-4uefhn") format('truetype'),
+		url("fonts/core_icomoon3093.svg?-4uefhn#core_icomoon") format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
