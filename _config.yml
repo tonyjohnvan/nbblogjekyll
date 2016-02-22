@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Nobody likes slow mobile apps. At NimbleDroid, we’re building cutting-edge tools to redefine how developers craft awesome apps. Our product is based on patent-pending technology created at Columbia University. Located in New York City, our team includes academics and hackers of all stripes, from CS PhDs to developers with 2,000+ stars on GitHub.
 descriptionfull:
   Nobody likes slow mobile apps. At NimbleDroid, we’re building cutting-edge tools to redefine how developers craft awesome apps. Our product is based on patent-pending technology created at Columbia University. Located in New York City, our team includes academics and hackers of all stripes, from CS PhDs to developers with 2,000+ stars on GitHub. We’re backed by an incredible cast of investors and are well funded for the next stage of our growth.
-baseurl: '/nbblogjekyll' # the subpath of your site, e.g. /blog
+baseurl: '/nbblogjekyll/' # the subpath of your site, e.g. /blog
 url: http://blog.nimbledroid.com # the base hostname & protocol for your site
 twitter_username: nimbledroid
 github_username:  nimbledroid
